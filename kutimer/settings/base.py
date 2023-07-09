@@ -27,7 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-CSRF_TRUSTED_ORIGINS = ['http://test1.mycs.today']
+CSRF_TRUSTED_ORIGINS = []
 
 
 # Application definition
@@ -55,9 +55,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-CORS_ALLOWED_ORIGINS = [
-    'http://test2.mycs.today',
-]
+CORS_ALLOWED_ORIGINS = []
 
 ROOT_URLCONF = 'kutimer.urls'
 
